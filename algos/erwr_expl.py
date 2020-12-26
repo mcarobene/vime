@@ -1,4 +1,5 @@
-from sandbox.vime.algos.vpg_expl import VPG
+#from sandbox.vime.algos.vpg_expl import VPG
+from algos.vpg_expl import VPG
 from rllab.optimizers.lbfgs_optimizer import LbfgsOptimizer
 from rllab.core.serializable import Serializable
 
