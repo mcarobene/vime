@@ -1,7 +1,8 @@
 import numpy as np
 
 from rllab.algos.base import RLAlgorithm
-from sandbox.vime.sampler import parallel_sampler_expl as parallel_sampler
+#from sandbox.vime.sampler import parallel_sampler_expl as parallel_sampler
+from sampler import parallel_sampler_expl as parallel_sampler
 from rllab.misc import special
 from rllab.misc import tensor_utils
 from rllab.algos import util
@@ -14,7 +15,8 @@ import theano
 import lasagne
 from collections import deque
 import time
-from sandbox.vime.dynamics import bnn
+#from sandbox.vime.dynamics import bnn
+from dynamics import bnn
 # -------------------
 
 
