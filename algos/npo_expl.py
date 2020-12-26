@@ -1,6 +1,7 @@
 from rllab.misc import ext
 from rllab.misc.overrides import overrides
-from sandbox.vime.algos.batch_polopt_expl import BatchPolopt
+#from sandbox.vime.algos.batch_polopt_expl import BatchPolopt
+from algos.batch_polopt_expl import BatchPolopt
 import rllab.misc.logger as logger
 import theano
 import theano.tensor as TT
